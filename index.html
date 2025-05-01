@@ -9,14 +9,14 @@
     <body>
     <a-scene>
       <a-sky color="lightblue"></a-sky>
+      <a-entity camera wasd-controls look-controls position="0.693 3.945 13.771" rotation="-0.115 -2.063 0.000" scale="1.000 1.000 1.000"></a-entity>
       
-       <!-- Put this inside the <a-scene> -->
-      <a-entity 
-      ply-model="src:dog.ply"
-      position="0 1 -2"
-      rotation="-90 0 90"
-      ></a-entity>
+     
+      <a-entity id="world" ply-model="src: vr world.ply" position="-12.299 -3.430 13.684" -35="" -5"="" rotation="-90.000 -0.627 0.000" scale="2 2 2"></a-entity>
                  
-    </a-scene>
+      <a-entity id="boat1" ply-model="src: boat1" position="-12.299 50 13.684" scale="1 1 1"></a-entity>
+
+    </a-scene>  
+    
   </body>
 </html>
